@@ -896,7 +896,8 @@ Normalized version of a [Route Record](#routerecordraw)
 - **Type**: Array of normalized [route records](#routerecordnormalized)
 - **Details**:
 
-  Children route records of the current route. Empty array if none.
+  Children route records of the current route as defined at the creation of the route.
+  Will not be updated by dynamic [addition](#addroute) or [removal](#removeroute) of routes. Empty array if none.
 
 ### components
 
